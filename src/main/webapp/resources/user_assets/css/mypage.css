@@ -1,0 +1,66 @@
+@charset "UTF-8";
+table{
+	margin: 0px 20px 50px 20px;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
+.titleSize{
+	font-size: 3rem; padding-left: 30px;
+}
+.state{
+	margin: 0px 10px 0px 30px;
+}
+.state li{
+	list-style-type: none; float: left; padding: 0px 10px; color: #646d77; font-size: 1.3em;
+}
+.mb-20{
+	margin-bottom: 0px; margin-top: 70px; 
+}
+
+.listActive{
+	color:#9f78ff;
+}
+
+.imgSize-80px{
+	width: 80px;
+}
+
+/* 페이지 디자인 */
+.pagination{
+	position: absolute;
+	left: 40%;
+	margin-top: 20px;
+}
+
+.page-link{
+	color: #002342
+}
+
+.page-item.disabled .page-link{
+	color: #9f78ff;
+}
+
+.table > tbody > tr > td > input{
+	box-shadow: none;
+	border: 1px solid #dee2e6;
+}
+
+.findAddr{
+	color: #fff;
+    background: #1f2b7b;
+    border: 1px solid transparent;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: .8em;
+    text-align: center;
+    margin: 10px;
+}
+
+.section-padding{
+	padding-top:0px; padding-bottom: 0px;	
+}
+
+.e-large{
+	margin: 10px 10px;
+}
